@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>responsive</h1>
+    <div>
+        abc
+    </div>
+    
+    <input type="text" id="huy">
+</body>
+
+<style>
+
+    body {
+        max-width: 800px;
+        margin: auto;
+    }
+    input { 
+        width: 320px;
+    }
+
+    /* man hinh 600px tro xuong, input width 100% */
+
+    @media (max-width:600px)
+    {
+        input{
+            width: 100%;
+        }
+    }
+
+
+</style>
+
+</html>
